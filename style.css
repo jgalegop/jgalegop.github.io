@@ -80,6 +80,10 @@ h2 {
     text-shadow: 0px 0.75px 0.75px rgba(0,0,0,0.3);
     transition: text-shadow 0.25s;
 }
+.text-link:visited {
+    text-decoration: none;
+    color: #c05c00;
+}
 
 .grey-text {
     color: #777;
@@ -121,7 +125,7 @@ header {
     /* padding: 80px 0; */
 }
 
-.author-box:after {
+/*.author-box:after {
     display: block;
     height: 1px;
     background-color: #8d8d8d;
@@ -130,21 +134,14 @@ header {
     margin: 0 auto;
     margin-top: 50px;
 }
+*/
 
 
 .research-box img {
-    height: 400px; 
-    width: 800px;
-}
-
-.research-box:after {
-    display: block;
-    height: 1px;
-    background-color: #8d8d8d;
-    content: "";
-    width: 200px;
-    margin: 0 auto;
+    height: 300px; 
+    width: 600px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .papers-box img {
@@ -187,9 +184,8 @@ header {
 }
 
 .title-research{
-    text-align:center;
     font-weight: 200;
-    font-size: 250%
+    font-size: 200%
 }
 
 
